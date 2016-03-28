@@ -20,6 +20,12 @@ require "sinatra/reloader" if development?
 	# embedded ruby
 require 'erb'
 require 'uri'
+
+  # debugger
+require 'byebug'
+
+  # brcypt for password encryption
+require 'bcrypt'
 ######################################################################
 
 
